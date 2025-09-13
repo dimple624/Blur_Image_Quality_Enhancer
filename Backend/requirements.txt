@@ -1,0 +1,9 @@
+Flask
+Flask-CORS
+Flask-SQLAlchemy
+Flask-Bcrypt
+Flask-JWT-Extended
+Werkzeug==2.0.3
+Pillow
+torch
+opencv-python

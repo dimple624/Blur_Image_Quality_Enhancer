@@ -1,0 +1,28 @@
+name: image_enhancer
+description: A Flutter app to enhance blurry images using Real-ESRGAN backend.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+  http: ^1.4.0  # Update to the latest version
+  html: ^0.15.0 
+  image_picker: ^0.8.5+3
+  flutter_svg: ^1.0.0
+  shared_preferences: ^2.0.9
+  dio: ^4.0.4
+  json_annotation: ^4.4.0
+  flutter_secure_storage: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.4
+  json_serializable: ^6.0.1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+flutter:
+  assets:
+    - assets/navkis_logo.png
